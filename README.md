@@ -25,9 +25,9 @@ To streamline the focus on simulating boarding time, the scanning queue, scannin
 
 #### Plane Settings
 As mentioned, the simulation is focused on the Airbus A321 aircraft and will use Delta Air Lines’ seating configuration for business class and economy class. The aircraft setting will have:
-- 38 rows total;
-- 5 rows of business class with 4 seats in each row, 2 on each side of the aisle;
-- 33 rows of economy class with 6 seats in each row, 3 on each side of the aisle.
+- 38 rows total
+- 5 rows of business class with 4 seats in each row, 2 on each side of the aisle
+- 33 rows of economy class with 6 seats in each row, 3 on each side of the aisle
 
 It is also assumed that the plane will have enough overhead space for each passenger to store one item overhead. This is a reasonable assumption since the Federal Aviation Administration regulates the size and weight of carry-on luggage and most airlines, Delta Air Lines included, specify that passengers only bring one carry-on luggage in addition to a personal item. Note that some ultra-low cost carriers such as Spirit Airlines and Frontier Airline only allow one personal item and a carry-on would be an add-on purchase; Hence, we generated distributions under the assumption that 70% of the time, individuals carry a carry-on item. In addition to plane configuration, the model will assume that flights are fully booked, carrying 218 passengers in total. In other words, the boarding process begins after the first boarding pass has been scanned, i.e. the first passenger has begun boarding, and ends when the 218th passenger is seated.
 
